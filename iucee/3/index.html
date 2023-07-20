@@ -10,10 +10,23 @@
 <body>
     <div>
         <label for="lpd">Last period date</label>
-        <input type="date" name="lpd" placeholder="Enter Date" required>
+        <input type="date" name="lpd" required>
         <br>
         <label for="d">Duration:</label>
         <input type="number" name="d" required>
+        <br>
+        <span>
+            <label for="fi">Flow Intensity:</label>
+            &nbsp;
+            <Label for="">Low</Label>
+            <input type="Radio" name="fi" value="Low">
+            &nbsp;
+            <label for="">Normal</label>
+            <input type="Radio" name="fi" value="Normal">
+            &nbsp;
+            <label for="">High</label>
+            <input type="Radio" name="fi" value="High">
+        </span>
         <br>
         <label for="tg">Time Gap Between Periods</label>
         <input type="number" name="tg" required>
